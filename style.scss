@@ -1,0 +1,54 @@
+$error: red;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	background: rgb(0,132,255);
+	font-size: 1em;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	max-width: 98vw;
+	margin: 0 auto;
+	padding: 1em;
+	background: #fff;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.login .container{
+	max-width: 30em;
+	margin: 3em auto;
+	padding: 2em;
+	border-radius: 0.25em;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+
+.input{
+	appearance: none;
+	display: block;
+	width: 100%;
+	color: #333;
+	border: 1px solid rgb(180, 180, 180);
+	background: #fff;
+	padding: 1em;
+	border-radius: 0.25em;
+	& .input-error{
+
+	}
+}
